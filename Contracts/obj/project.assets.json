@@ -1528,6 +1528,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "NLog": "4.7.11"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -5829,10 +5843,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Models/Entities.csproj",
+      "msbuildProject": "../Models/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
       "NLog >= 4.7.11"
@@ -5864,7 +5884,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitProject\\CompanyEmployees\\Models\\Entities.csproj": {
+              "projectPath": "D:\\GitProject\\CompanyEmployees\\Models\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

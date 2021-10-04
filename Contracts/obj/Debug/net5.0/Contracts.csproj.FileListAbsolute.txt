@@ -13,3 +13,6 @@ D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.dll
 D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\ref\Contracts.dll
 D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.pdb
 D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.genruntimeconfig.cache
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Entities.dll
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Entities.pdb
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
