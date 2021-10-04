@@ -1,0 +1,15 @@
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\Entities.deps.json
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\Entities.runtimeconfig.json
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\Entities.dll
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\ref\Entities.dll
+D:\GitProject\CompanyEmployees\Models\bin\Debug\net5.0\Entities.pdb
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.dll
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\ref\Entities.dll
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.pdb
+D:\GitProject\CompanyEmployees\Models\obj\Debug\net5.0\Entities.genruntimeconfig.cache
