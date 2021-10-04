@@ -67,3 +67,5 @@ D:\GitProject\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployee
 D:\GitProject\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\ref\CompanyEmployees.dll
 D:\GitProject\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.pdb
 D:\GitProject\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.genruntimeconfig.cache
+D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Repository.dll
+D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Repository.pdb

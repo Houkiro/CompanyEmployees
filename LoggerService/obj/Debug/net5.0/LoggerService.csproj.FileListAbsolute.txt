@@ -16,3 +16,5 @@ D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Contracts.dll
 D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Contracts.pdb
 D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CopyComplete
 D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.genruntimeconfig.cache
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Entities.dll
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Entities.pdb

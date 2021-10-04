@@ -1533,6 +1533,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "NLog": "4.7.11"
         },
@@ -1541,6 +1542,20 @@
         },
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "NLog": "4.7.11"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -5848,6 +5863,11 @@
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Models/Entities.csproj",
+      "msbuildProject": "../Models/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
