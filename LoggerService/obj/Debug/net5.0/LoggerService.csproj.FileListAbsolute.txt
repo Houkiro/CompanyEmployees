@@ -1,0 +1,12 @@
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\LoggerService.dll
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.dll
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.pdb

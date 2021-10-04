@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dQYQoR63Cc8LzOM1z/z0PSW4cXJlKvdiUybLANyXZEQgfBkoQKhiroURPTppz3SlkkR0q9/Rg/OpyTpTJen+IA==",
+  "success": true,
+  "projectFilePath": "D:\\GitProject\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512"
+  ],
+  "logs": []
+}
