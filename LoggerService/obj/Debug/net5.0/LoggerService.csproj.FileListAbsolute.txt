@@ -10,3 +10,9 @@ D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.cspr
 D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.dll
 D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
 D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.pdb
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\LoggerService.runtimeconfig.json
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\LoggerService.runtimeconfig.dev.json
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Contracts.dll
+D:\GitProject\CompanyEmployees\LoggerService\bin\Debug\net5.0\Contracts.pdb
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CopyComplete
+D:\GitProject\CompanyEmployees\LoggerService\obj\Debug\net5.0\LoggerService.genruntimeconfig.cache

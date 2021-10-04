@@ -1,0 +1,15 @@
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Contracts.deps.json
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Contracts.runtimeconfig.json
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Contracts.runtimeconfig.dev.json
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Contracts.dll
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+D:\GitProject\CompanyEmployees\Contracts\bin\Debug\net5.0\Contracts.pdb
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.dll
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.pdb
+D:\GitProject\CompanyEmployees\Contracts\obj\Debug\net5.0\Contracts.genruntimeconfig.cache
