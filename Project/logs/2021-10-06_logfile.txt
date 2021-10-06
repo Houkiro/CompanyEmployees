@@ -1,0 +1,2 @@
+2021-10-06 12:38:21.0909 INFO Employee with id: 5ee22687-c0b2-4161-41d6-08d987fc402a doesn't exist in the database.
+2021-10-06 12:41:18.8150 INFO Company with id: dafc604a-26c4-420b-e7a2-08d987fc4025 doesn't exist in the database.
