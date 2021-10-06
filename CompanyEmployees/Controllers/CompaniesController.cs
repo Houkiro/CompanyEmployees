@@ -62,10 +62,20 @@ namespace CompanyEmployees.Controllers
                 _logger.LogError("CompanyForCreationDto object sent from client is null.");
                 return BadRequest("CompanyForCreationDto object is null");
             }
+
+            if (!ModelState.IsValid)
+            {
+                _logger.LogError("Invalid model state for the CompanyForCreationDto object");
+                return UnprocessableEntity(ModelState);
+            }
+
             var companyEntity = _mapper.Map<Company>(company);
+
             _repository.Company.CreateCompany(companyEntity);
             _repository.Save();
+
             var companyToReturn = _mapper.Map<CompanyDto>(companyEntity);
+
             return CreatedAtRoute("CompanyById", new { id = companyToReturn.Id }, companyToReturn);
         }
 
@@ -96,6 +106,13 @@ namespace CompanyEmployees.Controllers
                 _logger.LogError("Company collection sent from client is null.");
                 return BadRequest("Company collection is null");
             }
+
+            if (!ModelState.IsValid)
+            {
+                _logger.LogError("Invalid model state for the CompanyForCreationDto object");
+                return UnprocessableEntity(ModelState);
+            }
+
             var companyEntities = _mapper.Map<IEnumerable<Company>>(companyCollection);
             foreach (var company in companyEntities)
             {
@@ -118,6 +135,32 @@ namespace CompanyEmployees.Controllers
                 return NotFound();
             }
             _repository.Company.DeleteCompany(company);
+            _repository.Save();
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
+        {
+            if (company == null)
+            {
+                _logger.LogError("CompanyForUpdateDto object sent from client is null.");
+                return BadRequest("CompanyForUpdateDto object is null");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                _logger.LogError("Invalid model state for the CompanyForUpdateDto object");
+                return UnprocessableEntity(ModelState);
+            }
+
+            var companyEntity = _repository.Company.GetCompany(id, trackChanges: true);
+            if (companyEntity == null)
+            {
+                _logger.LogInfo($"Company with id: {id} doesn't exist in the database.");
+                return NotFound();
+            }
+            _mapper.Map(company, companyEntity);
             _repository.Save();
             return NoContent();
         }
