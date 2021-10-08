@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities
+namespace Entities.RequestFeatures
 {
     public abstract class RequestParameters
     {
@@ -23,8 +23,4 @@ namespace Entities
             }
         }
     }
-    public class EmployeeParameters : RequestParameters
-    {
-    }
-
 }
