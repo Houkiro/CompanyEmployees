@@ -1,3 +1,4 @@
+using CompanyEmployees.ActionFilters;
 using CompanyEmployees.Extensions;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +31,9 @@ namespace CompanyEmployees
             services.ConfigureSqlContext(Configuration);
             services.ConfigureRepositoryManager();
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<ValidationFilterAttribute>();
+            services.AddScoped<ValidateCompanyExistsAttribute>();
+            services.AddScoped<ValidateEmployeeForCompanyExistsAttribute>();
 
             services.AddControllers(config =>
             {
