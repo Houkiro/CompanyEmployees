@@ -70,3 +70,5 @@ D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.AspNe
 D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
+D:\GitProject\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\GitProject\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
