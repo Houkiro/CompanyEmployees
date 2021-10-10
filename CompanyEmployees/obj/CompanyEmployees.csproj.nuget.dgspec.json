@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[8.1.1, )"
             },
+            "Marvin.Cache.Headers": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -64,6 +68,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -78,6 +86,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -163,6 +175,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -245,6 +261,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -302,6 +322,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -323,6 +347,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -397,6 +425,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 ﻿using Entities;
+using Entities.Models;
 using Entities.RequestFeatures;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
