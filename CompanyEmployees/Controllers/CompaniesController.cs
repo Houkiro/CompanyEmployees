@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using CompanyEmployees.ActionFilters;
-using CompanyEmployees.Model;
+using CompanyEmployees.ModelBinders;
 using Contracts;
 using Entities.DataTransferObjects;
+using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Mvc;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +28,7 @@ namespace CompanyEmployees.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetCompanies")]
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await _repository.Company.GetAllCompaniesAsync(trackChanges: false);
@@ -55,9 +55,9 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpGet("collection/({ids})", Name = "CompanyCollection")]
-        public async Task<IActionResult> GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
+        public async Task<IActionResult> GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))]IEnumerable<Guid> ids)
         {
-            if (ids == null)
+            if(ids == null)
             {
                 _logger.LogError("Parameter ids is null");
                 return BadRequest("Parameter ids is null");
@@ -65,7 +65,7 @@ namespace CompanyEmployees.Controllers
 
             var companyEntities = await _repository.Company.GetByIdsAsync(ids, trackChanges: false);
 
-            if (ids.Count() != companyEntities.Count())
+            if(ids.Count() != companyEntities.Count())
             {
                 _logger.LogError("Some ids are not valid in a collection");
                 return NotFound();
@@ -75,9 +75,9 @@ namespace CompanyEmployees.Controllers
             return Ok(companiesToReturn);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCompany")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
-        public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
+        public async Task<IActionResult> CreateCompany([FromBody]CompanyForCreationDto company)
         {
             var companyEntity = _mapper.Map<Company>(company);
 
@@ -92,7 +92,7 @@ namespace CompanyEmployees.Controllers
         [HttpPost("collection")]
         public async Task<IActionResult> CreateCompanyCollection([FromBody] IEnumerable<CompanyForCreationDto> companyCollection)
         {
-            if (companyCollection == null)
+            if(companyCollection == null)
             {
                 _logger.LogError("Company collection sent from client is null.");
                 return BadRequest("Company collection is null");
@@ -135,6 +135,13 @@ namespace CompanyEmployees.Controllers
             await _repository.SaveAsync();
 
             return NoContent();
+        }
+
+        [HttpOptions]
+        public IActionResult GetCompaniesOptions()
+        {
+            Response.Headers.Add("Allow", "GET, OPTIONS, POST");
+            return Ok();
         }
     }
 }

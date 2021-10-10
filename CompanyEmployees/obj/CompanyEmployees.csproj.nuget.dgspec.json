@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -78,6 +82,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -163,6 +171,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -245,6 +257,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -323,6 +339,10 @@
             "NLog": {
               "target": "Package",
               "version": "[4.7.11, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [
@@ -397,6 +417,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VQn9HuDHL86KkogMYvCH7QdsiH/oDpzNW8C+t5DeAfE7bPT84HzcSqg3PyqRuI6PcGqV8boZrBeDKNP3M/Zy1A==",
+  "dgSpecHash": "xytFEnVE+ezpG1ErYud7nbDAe7hw76jblRk5zRgKxaT+ceON4Aft16vPnWuw3uUY1Vtvvx1sQcLitro/+texmw==",
   "success": true,
   "projectFilePath": "D:\\GitProject\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.linq.dynamic.core\\1.2.12\\system.linq.dynamic.core.1.2.12.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
